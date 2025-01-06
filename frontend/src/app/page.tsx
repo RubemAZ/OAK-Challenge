@@ -10,6 +10,7 @@ const IndexPage = () => {
   const handleAddProduct = (newProduct: any) => {
     setProducts((prevProducts) => [...prevProducts, { ...newProduct, id: prevProducts.length + 1 }]);
   };
+  
 
   return (
       <div className="container mx-auto p-4">
